@@ -16,7 +16,7 @@ function Login({setLoggedIn}) {
     .then((result) => {
       if(result.data.sucess){
         setLoggedIn(true);
-        location.reload()
+        // location.reload()
         navigate('/course');
       }
       else{
